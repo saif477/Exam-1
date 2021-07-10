@@ -1,0 +1,605 @@
+
+@media all and (max-width:1500px){
+    .fix-width{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+    }
+}
+@media all and (max-width:1304px) {
+    .testimonia-text-suru i {
+        font-size: 2.5rem;
+    }
+    .testimonia-text-suru {
+        width: 47.42%;
+    }
+    .news-right-subject {
+        width: 73%;
+    }
+}
+@media all and (max-width:1290px){
+    .about-text {
+        width: 60%;
+    }
+    .about-notis {
+        width: 30%;
+    }
+    .notice-text p {
+        font-size: 1.2rem;
+    }
+    .about-text p {
+        font-size: 1.4rem;
+        margin-bottom: 14px;
+    }
+    .category-item-suru {
+        width: 31.70%;
+    }
+    .category-item-text h3 {
+        font-size: 1.7rem;
+    }
+    .category-item-suru {
+        width: 31.5%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .top-course-item-suru:nth-child(3n+3) {
+        margin-right: 0;
+    }
+    .admission-text {
+        padding: 97px 90px;
+    }
+    .admission-text h2 {
+        font-size: 2.4rem;
+    }
+    .admission-text {
+        width: 100%;
+        padding: 24px 90px;
+    }
+    .admission-text {
+        padding: 24px 90px;
+        text-align: center;
+    }
+    .admission-img img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .admission-img {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .acordioon {
+        padding: 23px 40px;
+    }
+
+    .teachers-list {
+        width: 31.5%;
+    }
+    .news-text {
+        float: left;
+        width: 100%;
+        padding: 100px 20px;
+        background-color: #fff;
+        text-align: center;
+    }
+    .news-item-img {
+        float: left;
+        width: 100%;
+    }
+    .news-left-section {
+        width: 100%;
+    }
+    .news-item-img img {
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+    }
+    .news-item-img {
+        width: 100%;
+        text-align: center;
+    }
+    .news-right-cover-div {
+        margin-left: 0;
+    }
+    .news-right-section {
+        width: 100%;
+    }
+    .form-text h6 {
+        font-size: 1.4rem;
+    }
+    .form-text h2 {
+        font-size: 2.5rem;
+    }
+    .news-item-img {
+        width: 100%;
+    }
+    
+}
+
+
+@media all and (max-width:1165px) {
+    .headar-top-right {
+        width: 40%;
+    }
+    .head-top-left {
+        width: 60%;
+    }
+    .logo-left .logo a img {
+        width: 90px;
+        padding: 13px 0;
+    }
+    .menu ul li a {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .menu ul li a {
+        padding: 42px 15px;
+    }
+    .shop:hover .shop-item {
+        display: none;
+    }
+    .notice-text {
+        width: 80%;
+        margin-left: 10px;
+    }
+    .date {
+        width: 10%;
+        border-right: 1px solid #22a7d0;
+    }
+    .date::before {
+        
+        display: none;
+    }
+    .about-text h2 {
+        font-size: 2.5rem;
+    }
+    .category-item-suru {
+        width: 31.3%;
+    }
+    .course-item-text h3 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .top-course-item-suru {
+        width: 31.60%;
+    }
+
+    .testimonia-text-suru {
+        width: 100%;
+        margin-top: 30px;
+        /* height: 543px; */
+        /* background-color: #f3f8f9; */
+    }
+    .fotter-middle p {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media all and (max-width:1067px){
+    .about-notis {
+        margin-left: 0;
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .date {
+        top: 0;
+    }
+    .notice-text {
+        margin-left: 70px;
+    }
+    .category-item-suru {
+        width: 100%;
+        padding: 18px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+   
+    .top-course-item-suru {
+        width: 48%;
+    }
+    .acordioon {
+        width: 100%;
+    }
+    .acording-img-btn {
+        width: 100%;
+    }
+}
+@media all and (max-width:1094px){
+    .top-course-item-suru {
+        width: 31%;
+    }
+    
+}
+@media all and (max-width:1034px){
+    .top-course-item-suru {
+        width: 100%;
+    }
+    
+}
+
+.mobile-menu-check{
+    display: none;
+}
+@media all and (max-width:992px){
+    .headar-menu {
+        position: unset;
+        position: relative;
+    }
+    .menu-center {
+        width: 194px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        transition: .4s;
+        height: 298px;
+        text-align: center;
+        
+        
+        
+    }
+    .menu{
+        background-color: #fff;
+    }
+    /* mobile menu */
+    .menu-center{
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+    .mobile-menu-check:checked ~ .menu-center{
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+    .mobile-menu-check {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        height: 30px;
+        width: 30px;
+        opacity: 0;
+        display: block;
+    }
+    .menu-icon-all .bar span {
+        height: 3px;
+        background-color: #22a7d0;
+    }
+    .menu ul li a {
+        padding: 15px 15px;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu-icon-all {
+        padding: 5px 0;
+    }
+    .mega-ul {
+        width: 100%;
+        /* text-align: center; */
+        /* margin-right: 0; */
+    }
+    .logo-left .logo a img {
+        width: 54px;
+        padding: 5px 0;
+    }
+    .menu ul li .drop-ul {
+        left: 100%;
+        width: 205px;
+        padding-left: 0;
+        top: 0;
+    }
+    .menu ul li .mega-comon-ul {
+        left: 100%;
+        width: 180px;
+        top: 0;
+    }
+    .menu ul li strong i {
+        display: none;
+    }
+    .shop-item {
+        display: none;
+    }
+    .logo-left {
+        width: 50%;
+    }
+    .menu-bar-icon-right {
+        width: 50%;
+    }
+    #spiner.active{
+        background-color: rgb(0, 0, 0,.2);
+        left: 0;
+    }
+    .menu-icon-all .bar {
+        cursor: pointer;
+        /* padding: 0px 0; */
+        position: relative;
+        padding-bottom: 7px;
+        box-sizing: border-box;
+        top: 4px;
+        pointer-events: none;
+    }
+    .banner-section {
+        padding: 100px 0;
+    }
+    .banner-item {
+        top: 0;
+    }
+    .notice-text {
+        margin-left: 20px;
+    }
+    .teacher-section-row {
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .teachers-list {
+        width: 30%;
+    }
+    .teachers-list:nth-child(3){
+        margin-right: 0;
+    }
+    .form-text h2 {
+        font-size: 2rem;
+    }
+}
+@media all and (max-width:976px){
+    .head-top-left {
+        width: 100%;
+        text-align: center;
+    }
+    .headar-top-right {
+        width: 100%;
+        text-align: center;
+    }
+    .headar-left-content::before {
+        display: none;
+    }
+    .banner-section {
+        padding: 80px 0;
+    }
+    .about-main-div {
+        top: -23px;
+    }
+    .teachers-list {
+        width: 100%;
+        text-align: center;
+    }
+    .teachers-list img {
+        width: 200px;
+        border-radius: 50%;
+    }
+    .teachers-info h4 {
+        font-size: 1.8rem;
+        line-height: 2;
+        margin-top: 34px;
+    }
+    .teachers-info {
+        width: 173px;
+        height: 173px;
+        padding: 0;
+        border-radius: 50%;
+    }
+    .teachers-info ul li a {
+        font-size: 1.7rem;
+        padding: 0px 10px;
+    }
+    .testimonia-text-suru i {
+        font-size: 2rem;
+    }
+    .footer-item {
+        width: 50%;
+        text-align: center;
+        margin-top: 47px;
+    }
+    .footer-item ul li::before {
+        display: none;
+    }
+    .footter-last-ses ul li a {
+        margin: 0 4px;
+    }
+    .footter-last-ses {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .fotter-middle {
+        width: 100%;
+    }
+    .fotter-img {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media all and (max-width:778px){
+    .acordioon h2 {
+        font-size: 3rem;
+    }
+}
+@media all and (max-width:768px){
+    .banner-section {
+        background-size: 100% 100%;
+    }
+    .teacher-section-row {
+        padding-left: 0;
+    }
+    .form-text h2 {
+        font-size: 1.4rem;
+    }
+}
+@media all and (max-width:690px){
+    .banner-item {
+        width: 100%;
+    }
+    .banner-item h1 {
+        font-size: 3rem;
+    }
+    .banner-item p {
+        font-size: 1.4rem;
+        width: 50rem;
+    }
+    .news-date {
+        width: 100%;
+    }
+    .news-right-subject {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .news-right-subject h2 {
+        font-size: 1.5rem;
+    }
+    .Footer-suru {
+        padding-top: 130px;
+    }
+    .footer-item ul li a {
+        font-size: 1.4rem;
+    }
+    .footer-item ul span {
+        font-size: 2rem;
+        color: #2aa8d3;
+    }
+    .icone-footer a {
+        font-size: 1.2rem;
+    }
+    .icone-footer i {
+        font-size: 1.4rem;
+        left: 14px;
+    }
+    .form-suru .form {
+        margin-top: 14px;
+    }
+    
+    .form-suru .form button {
+        padding: 10px 28px;
+        margin-top: 10px;
+    }
+    html{
+        font-size: 55%;
+    }
+    .news-text {
+        padding: 33px 5px;
+    }
+}
+@media all and (max-width:602px){
+    .headar-left-content span a {
+        font-size: 1.2rem;
+        margin-right: 7px;
+    }
+    .headar-left-content span {
+        font-size: 1.2rem;
+    }
+    .defalt-btn {
+        padding: 8px 20px;
+        font-size: 1.2rem;
+    }
+    .headar-right-content {
+        font-size: 1.2rem;
+    }
+    .headar-right-content span a i {
+        font-size: 1.3rem;
+    }
+    .headar-right-content span a {
+        font-size: 1.1rem;
+    }
+    .banner-item p {
+        width: 100%;
+    }
+    .banner-item a {
+        padding: 10px 15px;
+        font-size: 1.2rem;
+    }
+    .note-acordin-text {
+        padding: 12px 13px;
+    }
+    .rwquament-text h4 {
+        font-size: 1.3rem;
+    }
+    .defalt-text h2 {
+        font-size: 2.4rem;
+    }
+    .defalt-text h6 {
+        font-size: 1.6rem;
+    }
+    .form-text {
+        width: 100%;
+        text-align: center;
+    }
+    .form-suru {
+        width: 100%;
+    }
+    .form-suru .form {
+        text-align: center;
+    }
+    .form-suru .form .form-control {
+        width: 100%;
+    }
+    .defalt-rihgt-batton a {
+        padding: 17px 12px;
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width:463px){
+    .headar-left-content {
+        display: none;
+    }
+    .banner-item h1 {
+        font-size: 2rem;
+    }
+    .banner-item p {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .sign {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .about-img {
+        width: 100%;
+        text-align: center;
+    }
+    .date {
+        top: 8px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .admission-text h2 {
+        font-size: 2.1rem;
+        font-weight: 700;
+    }
+    .acording-img {
+        padding: 100px 0;
+    }
+    .note-acordin-text h5 {
+        font-size: 1rem;
+    }
+    .news-item-img {
+        overflow: unset;
+    }
+    .news-item {
+        overflow: unset;
+    }
+    .icon-testimonial img {
+        width: 70px;
+    }
+    
+}
+@media all and (max-width:400px){
+    html{
+        font-size: 50%;
+    }
+    .news-item-img img {
+        width: 150px;
+        height: 150px;
+    }
+}
